@@ -1,7 +1,7 @@
 Anonimizzatore (Anonymizer)
 ==
 C# module and SQL content to randomize/anonymized personal data (name, surname, city of birth) from production database to test
-[![Software License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
+[![Software License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![netVersion-badge](https://img.shields.io/static/v1.svg?label=C%23&message=4.7&color=green)
 ![SQL-badge](https://img.shields.io/static/v1.svg?label=SQL&message=script&color=brown)
 
