@@ -43,11 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ctrl\CodiceFiscale.cs" />
+    <Compile Include="Ctrl\Controller.cs" />
+    <Compile Include="Model\Comune.cs" />
+    <Compile Include="Model\Dipendente.cs" />
+    <Compile Include="Persistence\DbRawManager.cs" />
+    <Compile Include="Persistence\PersistenceManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mapping\Comune.hbm.xml" />
+    <Content Include="Mapping\Dipendente.hbm.xml" />
+    <Content Include="Sql\cognominomi.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

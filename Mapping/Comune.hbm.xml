@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping namespace="Model" assembly="Anonimizzatore" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Comune" table="comuni">
+    <id name="id" column="id" type="int" unsaved-value="0">
+      <generator class="native" />
+      <!-- for MySql uses the identity column capability with auto increment features -->
+    </id>
+    <version name="version" type="int" />
+    <property name="denominazione" type="string" length="50" not-null="true" />
+    <property name="provincia" type="string" length="2" not-null="true" />
+    <property name="codiceIstat" type="string" length="4" not-null="true" />
+  </class>
+</hibernate-mapping>

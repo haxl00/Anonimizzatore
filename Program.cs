@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Anonimizzatore.Ctrl;
 
 namespace Anonimizzatore
 {
@@ -10,6 +6,7 @@ namespace Anonimizzatore
     {
         static void Main(string[] args)
         {
+            Controller.anonimizzaAnagraficheDipendenti();
         }
     }
 }
