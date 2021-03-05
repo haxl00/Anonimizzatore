@@ -1,7 +1,5 @@
-using System;
 using System.ComponentModel;
 using System.Collections;
-
 
 namespace Anonimizzatore.Model
 {
@@ -19,7 +17,7 @@ namespace Anonimizzatore.Model
         /// <summary>
         /// Fornisce un elenco complessivo (mediante NHibernate) di tutti i comuni presenti in archivio
         /// </summary>
-        /// <returns>ArrayList di dipendenti</returns>
+        /// <returns>ArrayList di elementi [Comune]</returns>
         public static ArrayList recuperaListaComuni()
         {
             return new ArrayList();

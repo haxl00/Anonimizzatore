@@ -32,62 +32,16 @@ namespace Anonimizzatore.Model
         /// <summary>
         /// Overriding
         /// </summary>
-        /// <param name="obj"></param>
-        /// <returns></returns>
-        public override bool Equals(System.Object obj)
-        {
-            if (obj == null)
-                return false;
-
-            Dipendente x = obj as Dipendente;
-            if ((System.Object)x == null)
-                return false;
-
-            return id == x.id;
-        }
-
-        /// <summary>
-        /// Overriding
-        /// </summary>
-        /// <returns></returns>
-        public override int GetHashCode()
-        {
-            return base.GetHashCode();
-        }
-
-        /// <summary>
-        /// Overriding
-        /// </summary>
         /// <returns></returns>
         public override string ToString()
         {
-            string res;
-            res = this.cognome + " " + this.nome;
-            res += " " + this.codiceFiscale;
-            return res;
-        }
-
-        /// <summary>
-        /// Compara dipendenti sulla base del loro valore stringa
-        /// </summary>
-        /// <param name="obj"></param>
-        /// <returns></returns>
-        public virtual int CompareTo(object obj)
-        {
-            if (obj == null)
-                return 0;
-
-            Dipendente x = obj as Dipendente;
-            if ((System.Object)x == null)
-                return 0;
-
-            return this.ToString().CompareTo(((Dipendente)obj).ToString());
+            return this.cognome + " " + this.nome + " [" + this.codiceFiscale + "]";
         }
 
         /// <summary>
         /// Fornisce un elenco complessivo (mediante NHibernate) di tutti i dipendenti presenti in archivio
         /// </summary>
-        /// <returns>ArrayList di dipendenti</returns>
+        /// <returns>ArrayList di elementi [Dipendente]</returns>
         public static ArrayList recuperaListaDipendenti()
         {
             return new ArrayList();
