@@ -9,7 +9,7 @@ namespace Anonimizzatore.Persistence
     public class DbRawManager
     {
         /// <summary>
-        /// 
+        /// Esegue sul database di lavoro una query RAW (senza ORM intermedi)
         /// </summary>
         /// <param name="querySql">Query RAW da eseguire sul db senza ORM intermedi</param>
         /// <param name="connectionStringElement">Se presente, modifica alcuni elementi della connection string</param>

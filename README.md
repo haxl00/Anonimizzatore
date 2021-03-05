@@ -12,3 +12,7 @@ When I receive production database to make debug on code, I don't like to work w
 In real software, I use NHibernate to make persistence (ORM) to database and a class to execute RAW queries. In this snippet this classes are not implemented. Everyone can use their preferred method to R/W to database. Code in Controller is the main part of this repository. A very very interesting part is, also, the SQL script that contains (italians) 300 surnames and 622 names with sex distinction.
 
 To maximize anonymity, the script change city of birth and refresh "Codice Fiscale" (class not implemented)
+
+###Notes
+1. The code is in Italian because it derives from a larger software developed with names in Italian
+2. The code was developed in a short amount of time, therefore, not "academically" perfect!

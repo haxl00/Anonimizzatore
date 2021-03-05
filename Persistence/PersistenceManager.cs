@@ -16,9 +16,9 @@ namespace Anonimizzatore.Persistence
         }
 
         /// <summary>
-        /// Esegue aggiornamento di un oggetto su database mediante ORM
+        /// Esegue aggiornamento di un oggetto su database mediante ORM - UPDATE
         /// </summary>
-        /// <param name="oggetto">Oggetto generico da aggiornare - UPDATE</param>
+        /// <param name="oggetto">Oggetto generico da aggiornare</param>
         public void modifica(Object oggetto)
         {
             return;
